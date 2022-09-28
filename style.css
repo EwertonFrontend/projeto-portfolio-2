@@ -22,7 +22,7 @@ html,body{
     background-color: rgb(99, 99, 99);
     font-size: 1.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
 }
 .navegar a{
     font-family: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@ html,body{
     box-shadow: 0 0 10px rgb(2, 1, 78), 0 0 15px rgb(71, 19, 119), 0 0 30px rgb(1, 2, 80) ;
     color: white;
     
-    transition: 1s;
+    transition: .5s;
 }
 .button1 span{
     position: absolute;

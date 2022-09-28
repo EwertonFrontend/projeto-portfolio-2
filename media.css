@@ -75,7 +75,7 @@
   @media (max-width: 28.75em){
     .container img{
         position: absolute;
-        top: 25%;
+        top: 20%;
         left: 50%;
     }
   }
@@ -103,6 +103,18 @@
       height: 30px;
       width: 30px;
     }
+  @media (max-width: 28.75em){
+    .navegar{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  @media (max-width: 28.75em){
+    .progamas{
+      padding: 3vh;
+    }
+  }
+
   }
 
   
