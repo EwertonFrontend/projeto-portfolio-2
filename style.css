@@ -234,7 +234,7 @@ ul{
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    padding: px;
+    padding: 10px;
     font-size: 1.2rem;
     font-weight: bold;
     background-color: #0c2333;
@@ -242,6 +242,12 @@ ul{
     color: white;
     box-shadow: 1px 2px 3px black;
     font-family: 'Inconsolata', monospace;
+}
+.projeto1 a:hover{
+  background-color: #04befe;
+  color: #171515;
+  font-weight: bold;
+
 }
 .progamas{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
@@ -254,9 +260,16 @@ ul{
 }
 
 .criado{
-    background-color: black;
-    color: white;
-    font-size: 1.2em;
-    padding: 5px;
+    background-color: #3f3f3f;
+    color: rgb(252, 252, 252);
+    font-size: 1.5em;
+    padding: 10px;
     text-align: center;
+}
+.criado a{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.criado a:hover{
+  color: rgb(7, 0, 110);
 }
