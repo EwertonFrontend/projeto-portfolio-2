@@ -56,7 +56,7 @@
   }
   @media (max-width: 28.75em){
     .ewerton h1{
-        padding-top: 36vw;
+        padding-top: 34vw;
     }
   }
   @media (max-width: 28.75em){
@@ -68,12 +68,12 @@
     }
     @media (max-width: 28.75em){
       .progamas img{
-        height: 170px;
+        height: 25vh;
       }
   }
   @media (max-width: 28.75em){
     .container img{
-      width: 100px;
+      width: 20vh;
 
     }
   }
