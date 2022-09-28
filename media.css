@@ -68,7 +68,7 @@
     }
     @media (max-width: 28.75em){
       .progamas img{
-        height: 160px;
+        height: 150px;
       }
   }
   @media (max-width: 28.75em){
@@ -119,8 +119,9 @@
       padding: 3vh;
     }
   }
+    }
 
-  }
+}
 
   
   
