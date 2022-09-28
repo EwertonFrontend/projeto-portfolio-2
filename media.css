@@ -64,7 +64,12 @@
         padding: 1vw;
         display: flex;
         flex-flow: wrap;
+        
     }
+    @media (max-width: 28.75em){
+      .progamas img{
+        height: 180px;
+      }
   }
   @media (max-width: 28.75em){
     .container img{

@@ -96,9 +96,9 @@ ul{
     height: inherit;
     width: inherit;
     border-radius: 50%;
-    transform: scale(.9);
+    transform: scale(.5);
     z-index: -1;
-    transition: .5s;
+    transition: .1s;
   }
   ul li:nth-child(1):before{
     background: #4267B2;
@@ -253,10 +253,11 @@ ul{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 .progamas img{
-    padding-top:10px;
+    height: 250px;
 }
 
 .criado{
