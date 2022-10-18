@@ -116,7 +116,8 @@ nav{
     text-shadow: 2px 1px 3px black;
 }
 .projeto{
-    background-image: linear-gradient(to bottom, #4481eb 10%, #04befe 90%)
+    background-image:linear-gradient(0deg, rgba(117, 117, 117, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
+    
 }
 
 
@@ -131,7 +132,7 @@ nav{
 .titulo{
     text-align: center;
     font-size: 2rem;
-    background-color: white;  
+    background-color: rgba(117, 117, 117, 0.774);  
 }
 .projeto h1{
     display: flex;
@@ -142,14 +143,14 @@ nav{
 .projeto1 img{
     display: flex;
     border-radius: 5px 5px 0px 0px;
-    box-shadow: 1px 2px 3px black;
+    box-shadow: 0px 8px 6px 3px rgba(50, 50, 50, 0.75);
     
 }
 .projeto1 a{
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     font-size: 1.2rem;
     font-weight: bold;
     background-color: #0c2333;
@@ -157,16 +158,18 @@ nav{
     color: white;
     box-shadow: 1px 2px 3px black;
     font-family: 'Inconsolata', monospace;
+    
 }
 .projeto1 a:hover{
   background-color: #04befe;
   color: #171515;
   font-weight: bold;
   transition: .1s;
+  font-weight: bold;
 
 }
 .progamas{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: linear-gradient(0deg, rgba(117, 117, 117, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;

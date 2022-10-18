@@ -10,7 +10,7 @@
       font-size: 70%;
     }
   } 
-  @media (max-width: 28.75em) {
+  @media (max-width: 400px) {
     html{
       font-size: 60%;
     } 
@@ -46,6 +46,20 @@
       
     }
   }
+  @media (max-width: 400px){
+    .projetos {
+    flex-wrap: wrap;
+    
+    }
+  }
+  @media (max-width: 400px){
+    .projeto1 {
+    padding: 15px;
+    
+    
+    }
+  }
+
   @media (min-width: 1000px){
     .ewerton{
       padding: 10vw 0vw;
