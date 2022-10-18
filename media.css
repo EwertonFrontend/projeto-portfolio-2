@@ -16,20 +16,75 @@
     }
   } 
 
-  @media (max-width: 61.25em){
+  @media (max-width: 1000px){
     .progamas{
         padding: 1vw;
         display: flex;
         flex-flow: wrap;
     }
   }
-  @media (max-width: 61.25em){
+  @media (max-width: 1000px){
     .container img{
         position: absolute;
         top: 25%;
         left: 50%;
+        width: 200px;
     }
   }
+  @media (max-width: 1000px){
+    .ewerton{
+      padding: 25vw 0vw;
+    }
+  }
+  @media (max-width: 1000px){
+    .ewerton h1{
+      top: 41%;
+    left: 20%;
+    }
+  }
+  @media (max-width: 1000px){
+    .ewerton h3{
+      top: 52%;
+    left: 39%;
+    }
+  }
+
+  @media (max-width: 1200px){
+    .ewerton{
+      padding: 25vw 0vw;
+    }
+  }
+  @media (max-width: 1200px){
+    .ewerton h1{
+      top: 41%;
+    left: 20%;
+    }
+  }
+  @media (max-width: 1200px){
+    .ewerton h3{
+      top: 52%;
+    left: 39%;
+    }
+  }
+
+  @media (max-width: 1400px){
+    .ewerton{
+      padding: 20vw 0vw;
+    }
+  }
+  @media (max-width: 1400px){
+    .ewerton h1{
+      top: 41%;
+    left: 20%;
+    }
+  }
+  @media (max-width: 1400px){
+    .ewerton h3{
+      top: 52%;
+    left: 39%;
+    }
+  }
+
   @media (max-width: 61.25em){
     .projetos {
         display: flex;
