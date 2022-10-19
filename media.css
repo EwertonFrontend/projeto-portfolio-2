@@ -95,9 +95,9 @@
       position: absolute;
       top:8vh;
       right: 0;
-      width: 32vw;
-      height: 80vh;
-      background: #23232ef3;
+      width: 30vw;
+      height: 65vh;
+      background: #23232e;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
@@ -108,6 +108,13 @@
     .nav-list li{
       margin-left: 0;
       opacity: 0;
+    }
+   }
+   @media (max-width: 400px){
+    .nav-list li{
+      margin-left: 0;
+      opacity: 0;
+      padding: 10px;
     }
    }
    @media (max-width: 999px){
