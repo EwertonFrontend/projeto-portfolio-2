@@ -35,11 +35,13 @@ nav{
 .nav-list li{
   letter-spacing: 5px;
   margin-left: 35px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(225,225,225, 0.5);
+  width: 100%;
 }
 .nav-list li a{
     display: block;
+    
     
 }
 .nav-list li:hover{
@@ -89,7 +91,7 @@ nav{
     transition: .1s;
     font-weight: bold;
     width: 100%;
-    padding: 10px;
+    
 }
 .button1 span{
     position: absolute;
