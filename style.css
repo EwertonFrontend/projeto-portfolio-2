@@ -179,9 +179,88 @@ nav{
 }
 .progamas img{
     height: 150px;
-    padding: 15px;
+    
     
 }
+.formulario{
+    background-color: #23232e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.formulario h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.formulario h1::before{
+    content: "📧";
+    display: block;
+    padding: 2rem;
+
+
+}
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+.form label,
+.form input,
+.form textarea,
+.form button{
+    display: block;
+    width: 100%;
+
+}
+.form label{
+    color: white;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.form input,
+.form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color,box-shadow 0.2s;
+}
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    box-shadow: #0c2333;
+    box-shadow: 0 0 0 3px #04befe;
+}
+.form button{
+    display: block;
+    width: 105.2%;
+    padding: 1rem;
+    background: #4a9ad3;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
 
 .criado{
     background-color: #3f3f3f;
