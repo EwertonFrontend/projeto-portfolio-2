@@ -41,11 +41,14 @@ nav{
 }
 .nav-list li a{
     display: block;
+    color: white;
     
     
 }
 .nav-list li:hover{
-    background-color: #4a9ad3;
+    background-color: #6548b3f1;
+    
+    ;
 }
 .nav-list.active{
     transform: translateX(0);
@@ -265,7 +268,7 @@ nav{
 .form textarea:focus{
     outline: none;
     box-shadow: #0c2333;
-    box-shadow: 0 0 0 3px #04befe;
+    box-shadow: 0 0 0 3px #7c59dbf1;
 }
 .form button{
     display: block;
