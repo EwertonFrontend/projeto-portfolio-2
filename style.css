@@ -12,7 +12,7 @@
 
 html,body{
     background-color: rgb(99, 99, 99);
-    overflow: hidden;
+    
 }
 
 nav{
@@ -117,13 +117,14 @@ nav{
     border-radius: 50%;
 }
 .container img{
-    transition: all .1s;
+    transition: all .8s;
     border: 15px solid transparent; 
+    
 }
 .container img:hover{
-    border: 15px solid #0c2333;
+    border: 15px solid #0c2333c0;
     border-radius: 50%;
-
+    
 
 }
 .ewerton h1{
