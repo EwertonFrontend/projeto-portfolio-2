@@ -25,6 +25,7 @@ nav{
     height: 8vh;
     justify-content: flex-end;
     padding-right: 15px;
+    overflow-x: hidden;
     
 
 }
