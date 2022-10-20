@@ -33,8 +33,8 @@ nav{
 
 }
 .nav-list li{
-  letter-spacing: 10px;
-  margin-left: 35px;
+  letter-spacing: 2px;
+  margin-left: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(225,225,225, 0.5);
   width: 100%;
@@ -68,7 +68,7 @@ nav{
 }
 .menu div{
     width: 33px;
-    height: 1px;
+    height: 2px;
     background: #ffffff;
     margin: 7px;
 }
@@ -107,7 +107,7 @@ nav{
 }
 .container img{
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 230px;
