@@ -25,7 +25,7 @@ nav{
     height: 8vh;
     justify-content: flex-end;
     padding-right: 15px;
-    overflow-x: hidden;
+    
     
 
 }
@@ -37,11 +37,10 @@ nav{
 
 }
 .nav-list li{
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   margin-left: 35px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(225,225,225, 0.5);
-  width: 100%;
 }
 .nav-list li a{
     display: block;
