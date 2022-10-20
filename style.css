@@ -41,6 +41,7 @@ nav{
   margin-left: 35px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(225,225,225, 0.5);
+  width: 100%;
 }
 .nav-list li a{
     display: block;
