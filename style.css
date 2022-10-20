@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #23232e;
+    background: #353546;
     height: 8vh;
     justify-content: flex-end;
 }
@@ -139,7 +139,7 @@ nav{
     text-shadow: 2px 1px 3px black;
 }
 .projeto{
-    background-image:linear-gradient(0deg, rgba(117, 117, 117, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
+    background-color: #353546;
     
 }
 
@@ -166,7 +166,6 @@ nav{
 .projeto1 img{
     display: flex;
     border-radius: 5px 5px 0px 0px;
-    box-shadow: 1px 63px 13px 11px rgb(50 50 50 / 100%);
     
 }
 .projeto1 a{
@@ -190,6 +189,7 @@ nav{
   transition: .1s;
   font-weight: bold;
 
+
 }
 .progamas{
     background-image: linear-gradient(0deg, rgba(117, 117, 117, 0) 7%, rgba(0, 0, 0, 0.5) 100%);
@@ -204,8 +204,8 @@ nav{
     
 }
 .formulario{
-    background-color: #23232e;
-    min-height: 85vh;
+    background-color: #353546;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,13 +271,14 @@ nav{
     display: block;
     width: 105.2%;
     padding: 1rem;
-    background: #4a9ad3;
+    background: #251b41f1;
     font: inherit;
     text-transform: uppercase;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     padding-left: 1rem;
+    color: white;
 
 }
 .btn_social { 
@@ -295,19 +296,22 @@ nav{
 	margin:auto; 
 	float:left; 
 	display:block; 
+    
 }
 
 .btn_social ul li  { 
 
 	position:relative; 
-	background:#555555; 
+	background:#181818bd; 
 	list-style:none; 
 	float:left; 
-	margin:6px; 
+	margin:10px; 
 	overflow:hidden; 
 	border-radius:3px; 
 	font-size:1.5em; 
-	text-align:center; 
+	text-align:center;
+    z-index: 1;
+     
     
 }
 
@@ -320,6 +324,7 @@ nav{
 	text-decoration:none; 
 	color:#fff; 
 	transition:.2s;
+    z-index: 1;
 
 }
 
@@ -332,9 +337,10 @@ nav{
 	height:100%; 
 	top:90%; 
 	left:0; 
-	background:#7454ccf1; 
+	background:#251b41f1; 
 	transform: scale(1); 
-	transition:.4s; 
+	transition:.4s;
+    z-index: -1;
 }
 
 .btn_social ul li:hover::before { transition:0.4s; top:0%; }
@@ -342,14 +348,14 @@ nav{
 
 
 .criado{
-    background-color: #3f3f3f;
+    background-color: #22222c;
     color: rgb(252, 252, 252);
     font-size: 1.5em;
     padding: 10px;
     text-align: center;
 }
 .criado a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .criado a:hover{

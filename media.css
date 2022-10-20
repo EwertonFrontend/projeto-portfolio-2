@@ -139,11 +139,15 @@
    @media (max-width: 999px){
     .menu{
       display: block;
-      
-      
-    }
 
     }
+  }
+  @media (max-width: 400px){
+    .btn_social ul li{
+      margin:4px;
+    }
+  }
+
 
 
     
