@@ -12,6 +12,8 @@
 
 html,body{
     background-color: rgb(99, 99, 99);
+    overflow-x: hidden;
+
     
 }
 
