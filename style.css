@@ -319,7 +319,7 @@ nav{
 	display:block; 
 	text-decoration:none; 
 	color:#fff; 
-	transition:.4s;
+	transition:.2s;
 
 }
 
@@ -333,7 +333,6 @@ nav{
 	top:90%; 
 	left:0; 
 	background:#7454ccf1; 
-	z-index:-1; 
 	transform: scale(1); 
 	transition:.4s; 
 }

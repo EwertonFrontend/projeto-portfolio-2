@@ -118,9 +118,9 @@
     }
   }
   @media (max-width: 400px){
-    .nav-list li a{
+    .nav-list li{
       display: block;
-      padding: 20px 15px;
+      padding: 20px 0px;
     } 
   }
   
@@ -139,6 +139,7 @@
    @media (max-width: 999px){
     .menu{
       display: block;
+      
       
     }
 
