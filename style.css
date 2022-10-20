@@ -12,6 +12,7 @@
 
 html,body{
     background-color: rgb(99, 99, 99);
+    overflow: hidden;
 }
 
 nav{
@@ -114,7 +115,16 @@ nav{
     max-width: 1200px;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 10px 6px 8px rgb(41 41 41 / 64%);
+}
+.container img{
+    transition: all .1s;
+    border: 15px solid transparent; 
+}
+.container img:hover{
+    border: 15px solid #0c2333;
+    border-radius: 50%;
+
+
 }
 .ewerton h1{
     padding-top:5vw;
