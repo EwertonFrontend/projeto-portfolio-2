@@ -57,11 +57,8 @@ nav{
     margin: 8px;
     transition: 0.3s;
   }
-.nav-list li:hover{
-    background-color: #6548b3f1;
-    
-    ;
-}
+
+
 .nav-list.active{
     transform: translateX(0);
 }
@@ -154,10 +151,22 @@ nav{
 
 }
 .ewerton h1{
+    border-right:  1px solid gray;
     padding-top:5vw;
     font-size: 4rem;
     font-family: 'Roboto', sans-serif;
     text-shadow: 7px 1px 10px rgba(0, 0, 0, 0.555);
+}
+.typing-animation{
+    animation: blinkCursor 500ms infinite normal;
+}
+@keyframes blinkCursor{
+    from{
+        border-right-color: gray
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 .ewerton h3{
     font-size: 2rem;

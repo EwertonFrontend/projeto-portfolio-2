@@ -31,9 +31,10 @@
         <div class="container">
             <img src="imagens/photostudio-3-designify.png" alt="ewerton">
         </div>
-        <h1>Oi, Sou Ewerton Ferreira</h1>
-        <h3>Desenvolvedor Web</h3>
+        <h1 class="line typing-animation">Oi, Sou Ewerton Ferreira</h1>
+        <h3>Desenvolvedor Front-end</h3>
     </header>
+
     <section class="progamas">
         <img src="imagens/HTML.png" alt="foto-html">
         <img src="imagens/CSS.png" alt="foto-css">
@@ -41,10 +42,56 @@
         <img src="imagens/github-300px.png" alt="foto-github">
     </section>
 
+    <div class="projetos" id="pro">
+        <div class="projeto1">
+            <img src="imagens/android-300px.png" alt="projeto1" width="300px" height="300px">
+            <a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">Projeto Android</a>
+        </div>
+        <div class="projeto1">
+            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+            <a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">Projeto Cordel </a>
+        </div>
+        <div class="projeto1">
+            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+            <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
+        </div>
+        <div class="projeto1">
+            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+            <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
+        </div>
+        
+    </div>
+
+    <div class="btn_social">             
+        <ul>
+            <li><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" target="_blank" title="youtube"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank" title="linkdin"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#" target="_blank" title="github"><i class="fab fa-github"></i></a></li>              
+        </ul>
+    </div>
+
+    <div class="formulario">
+        <h1>Contato</h1>
+        <form action="https://formsubmit.co/ewerton.ferreira2050@gmail.com" method="POST" class="form">
+             <label for="name">Nome</label>
+            <input type="text" name="Nome" id="name" required>
+             <label for="email">E-mail</label>
+             <input type="email" name="Email" id="email" required>
+            <label for="message">Menssagem</label>
+             <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+             <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+             <button type="submit">Enviar</button>
+           </form>
+    </div>
 
     <footer class="criado">
         <p>Site criado por <a href="#">Ewerton Ferreira</a></p>
     </footer> 
+
     <script src="javascript.js"></script>
 </body>
 </html>
