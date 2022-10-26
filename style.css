@@ -157,15 +157,32 @@ nav{
     font-family: 'Roboto', sans-serif;
     text-shadow: 7px 1px 10px rgba(0, 0, 0, 0.555);
 }
-.typing-animation{
-    animation: blinkCursor 500ms infinite normal;
+.animation{
+    animation: Cursor 500ms infinite normal, typing 3s steps(50) 1s normal both;
 }
-@keyframes blinkCursor{
+.line{
+    color: rgba(255, 255, 255, .75);
+    font-family: monospace;
+    font-size: 3em;
+    border-right: 2px solid rgba(70, 70, 70, 0.75);
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing{
     from{
-        border-right-color: gray
+        width: 0;
     }
-    to {
-        border-right-color: transparent;
+    to{
+        width: 11em;
+    }
+}
+@keyframes Cursor{
+    form{
+        border-right-color:rgba(255, 255, 255, .75);
+    }
+    to{
+        border-right-color:transparent
     }
 }
 .ewerton h3{
