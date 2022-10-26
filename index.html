@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Portfolio 2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style/projetos.css">
+    <link rel="stylesheet" href="style/navegacao.css">
+    <link rel="stylesheet" href="style/contato.css">
 </head>
 <body>
     <nav>
         <ul class="nav-list">
-            <li><a href="index.html" class="button1" id="#ewe">Home</a></li>
-            <li><a href="index2.html" class="button1" id="#pro">Projetos</a></li>
-            <li><a href="index3.html" class="button1">Contato</a></li>
+            <li><a href="#ewe" class="button1" id="#ewe">Home</a></li>
+            <li><a href="#pro" class="button1" id="#pro">Projetos</a></li>
+            <li><a href="#con" class="button1">Contato</a></li>
         </ul>
         <div class="menu">
             <div class="line1">
@@ -27,7 +30,7 @@
 
     </nav>
 
-    <header class="ewerton">
+    <header class="ewerton" id="ewe">
         <div class="container">
             <img src="imagens/photostudio-3-designify.png" alt="ewerton">
         </div>
@@ -36,44 +39,46 @@
     </header>
 
     <section class="progamas">
-        <img src="imagens/HTML.png" alt="foto-html">
-        <img src="imagens/CSS.png" alt="foto-css">
-        <img src="imagens/javascrit.png" alt="foto-javascript">
+        <img src="imagens/HTML2.png" alt="foto-html">
+        <img src="imagens/CSS2.png" alt="foto-css">
+        <img src="imagens/javascrit2.png" alt="foto-javascript">
         <img src="imagens/github-300px.png" alt="foto-github">
     </section>
 
-    <div class="projetos" id="pro">
-        <div class="projeto1">
-            <img src="imagens/android-300px.png" alt="projeto1" width="300px" height="300px">
-            <a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">Projeto Android</a>
-        </div>
-        <div class="projeto1">
-            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
-            <a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">Projeto Cordel </a>
-        </div>
-        <div class="projeto1">
-            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
-            <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
-        </div>
-        <div class="projeto1">
-            <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
-            <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
-        </div>
+    <article id="pro">
+        <h1 class="titulo">Projetos</h1>
+        <div class="projetos">
+            <div class="projeto1">
+                <img src="imagens/android-300px.png" alt="projeto1" width="300px" height="300px">
+                <a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">Projeto Android</a>
+            </div>
+            <div class="projeto1">
+                <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+                <a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">Projeto Cordel </a>
+            </div>
+            <div class="projeto1">
+                <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+                <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
+            </div>
+            <div class="projeto1">
+                <img src="imagens/cordel-300px.png" alt="projeto2" width="300px" height="300px">
+                <a href="https://ewertoncursos.github.io/projeto-cordel/">Projeto Cordel </a>
+            </div>
         
-    </div>
+        </div>
+    </article>
 
-    <div class="btn_social">             
-        <ul>
-            <li><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="#" target="_blank" title="youtube"><i class="fab fa-whatsapp"></i></a></li>
-            <li><a href="#" target="_blank" title="linkdin"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#" target="_blank" title="github"><i class="fab fa-github"></i></a></li>              
-        </ul>
-    </div>
-
-    <div class="formulario">
+    <div class="formulario" id="con">
+        <div class="btn_social">             
+            <ul>
+                <li><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#" target="_blank" title="youtube"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#" target="_blank" title="linkdin"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank" title="github"><i class="fab fa-github"></i></a></li>              
+            </ul>
+        </div>
         <h1>Contato</h1>
         <form action="https://formsubmit.co/ewerton.ferreira2050@gmail.com" method="POST" class="form">
              <label for="name">Nome</label>
