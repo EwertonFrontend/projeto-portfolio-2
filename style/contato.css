@@ -1,6 +1,5 @@
 .formulario{
     background-color: #353546;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +7,7 @@
     font-family: 'Times New Roman', Times, serif;
     padding-right: 1rem;
     padding-left: 1rem;
+    width: 100vw;
 }
 .formulario h1 {
     font-family: Arial, Helvetica, sans-serif;

@@ -17,16 +17,29 @@ a{
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 800px;
-  margin: 0 auto;
+  grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+  max-width: 1000px;
+  margin: auto;
   column-gap: 20px;
   row-gap: 20px;
   width: 100vw;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 600px){
+  .grid{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 .grid > div{
+  margin: auto;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   background: rgb(46, 46, 46);
   padding: 10px;
   text-align: center;
@@ -35,16 +48,13 @@ a{
 }
 
 
+
 .titulo{
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     background-color: rgba(111,111,111,1);
     font-family: 'Inconsolata', monospace;
-    font-weight: 900;  
+    font-weight: 900; 
+    width: 100vw; 
 }
 
-@media (max-width: 400px){
-    .botao{
-      
-    }
-}

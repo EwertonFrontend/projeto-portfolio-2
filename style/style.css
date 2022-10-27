@@ -20,9 +20,9 @@ body{
 .ewerton{
     background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(0,0,0,1) 100%);
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 70vh;
-    margin: 0px;
+    margin-bottom: 20px;
     color: white;
 }
 @media (max-width: 400px){
@@ -58,7 +58,7 @@ body{
     font-family: 'Inconsolata', monospace;
     padding-top:4vw;
     font-size: 5em;
-    width: 100%;
+    width: 100vw;
     top: 55%;
     position: relative;
 }
@@ -114,21 +114,26 @@ body{
 
 .progamas{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    max-width: 1000px;
+    margin: 0;
     
 }
+@media (max-width: 400px){
+    .progamas{
+        margin: 0;
+        max-width: 370px;
+
+    }
+  }
 .progamas img{
     max-width: 100%;
   display: block;
   object-fit: cover;
   object-position: center;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
-
 
 .criado{
     background-color: #22222c;
@@ -136,6 +141,7 @@ body{
     font-size: 1.5em;
     padding: 10px;
     text-align: center;
+    width: 100vw;
 }
 .criado a{
   color: rgb(255, 255, 255);
