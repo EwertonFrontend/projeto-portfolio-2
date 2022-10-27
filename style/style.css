@@ -13,6 +13,7 @@ body, html{
     
     scroll-behavior: smooth;
     background-color: rgb(99, 99, 99); 
+    scroll-padding-top: 90px;
 }
 
 
