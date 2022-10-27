@@ -1,121 +1,50 @@
+a{  
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
 
-@media (max-width: 400px){
-    .projetos {
-    flex-wrap: wrap;
-    padding: 15px;
-    }
-  }
-#pro{
-  height: 100vh;
 }
-.projetos{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(111,111,111,1) 100%);
+.grid > img{
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 200px;
 }
-@media (max-width: 400px){
-    .projeto1{
-      height: 250px;
-      width: 250px;
-      padding: 40px;
-    }
-  }
-  @media (max-width: 400px){
-    .projeto1 img{
-      height: 250px;
-      width: 250px;
-  }
-   }
+
+.grid{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.grid > div{
+  background: rgb(46, 46, 46);
+  padding: 10px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+}
+
 
 .titulo{
     text-align: center;
-    font-size: 4rem;
+    font-size: 1rem;
     background-color: rgba(111,111,111,1);
     font-family: 'Inconsolata', monospace;
     font-weight: 900;  
 }
-@media (max-width: 400px){
-    .titulo{
-      font-size: 8rem;
-    }
-  }
 
-.projeto1 img{
-    box-shadow: 2px 5px 50px black;
-    display: flex;
-    border-radius: 50px 50px 0px 0px;
-
-}
-
-.projeto1 a{
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background-color: #0c2333;
-    border-radius: 0px 0px 50px 50px;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-}
-
-.projeto1 a:hover{
-  background-color: #161616;
-  color: #ffffff;
-  font-weight: bold;
-  transition: .1s;
-}
-.botao{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(48,48,48,1);
-}
 @media (max-width: 400px){
     .botao{
       
     }
 }
-.button {
-    display: inline-block;
-    border-radius: 10px;
-    background-color: rgb(170, 170, 170);
-    border: none;
-    color: #0a0a0a;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '➔';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.1s;
-  }
-  
-  .button:hover span {
-    padding-right: 35px;
-    
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }

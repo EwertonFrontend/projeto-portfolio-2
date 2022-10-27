@@ -10,6 +10,8 @@
     margin: 0;
 }
 body{
+    min-width: 100vh;
+    overflow-x: hidden;
     background-color: rgb(99, 99, 99); 
     
 }
@@ -111,14 +113,20 @@ body{
 
 
 .progamas{
-    background: linear-gradient(0deg, rgb(136, 136, 136) 0%, rgba(48,48,48,1) 100%);
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
     align-items: center;
+    align-content: center;
     
 }
 .progamas img{
-    height: 190px;
+    max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 200px;
 }
 
 
