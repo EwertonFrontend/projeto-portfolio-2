@@ -45,7 +45,7 @@ body{
     .container img{
       top: 15%;
       left: 50%;
-      width: 100px;  
+      width: 140px;  
     }
   }
 
@@ -79,7 +79,7 @@ body{
 @media (max-width: 400px){
     .ewerton h3{
       font-size: 2.5em;
-      top: 77%;
+      top: 74%;
     }
   }
 
