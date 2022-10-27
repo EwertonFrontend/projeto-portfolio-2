@@ -1,21 +1,19 @@
-.projeto{
-    background-color: #242424;
-}
+
 @media (max-width: 400px){
     .projetos {
     flex-wrap: wrap;
     padding: 15px;
     }
   }
-
-
-.projetos {
+#pro{
+  height: 100vh;
+}
+.projetos{
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    height: 68vh;
     background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(111,111,111,1) 100%);
 }
 @media (max-width: 400px){
@@ -36,14 +34,12 @@
     text-align: center;
     font-size: 4rem;
     background-color: rgba(111,111,111,1);
-    padding-top: 50px;
     font-family: 'Inconsolata', monospace;
     font-weight: 900;  
 }
 @media (max-width: 400px){
     .titulo{
       font-size: 8rem;
-      padding-top: 100px;
     }
   }
 
@@ -77,11 +73,10 @@
     display: flex;
     justify-content: center;
     background-color: rgba(48,48,48,1);
-    padding-bottom: 20px;
 }
 @media (max-width: 400px){
     .botao{
-        padding-bottom: 50px;
+      
     }
 }
 .button {
