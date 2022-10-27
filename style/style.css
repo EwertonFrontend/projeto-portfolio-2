@@ -48,6 +48,7 @@ body{
     width: 100%;
     position: relative;
     top: 55%;
+    text-shadow: 2px 1px 3px black;
 }
 .ewerton h3{
     font-size: 2rem;
@@ -59,10 +60,10 @@ body{
 }
 
 .animation{
-    animation: Cursor 250ms infinite normal, typing 3s steps(50) 1s normal both;
+    animation: Cursor 800ms infinite normal, typing 4s steps(50) 1s normal both;
 }
 .line{
-    color: rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, 0.932);
     font-family: monospace;
     border-right: 3px solid rgba(0, 0, 0, 0.959);
     margin: 0 auto;
@@ -74,7 +75,7 @@ body{
         width: 0;
     }
     to{
-        width: 13.5em;
+        width: 12em;
     }
 }
 @keyframes Cursor{
