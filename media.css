@@ -7,7 +7,7 @@
   }
    @media (max-width: 55em) {
     html {
-      font-size: 70%;
+      font-size: 50%;
     }
   } 
  
@@ -15,17 +15,16 @@
     .progamas{
         padding: 1vw;
         display: flex;
-        flex-flow: wrap;
+        flex-wrap: wrap; 
     }
   }
+  @media (max-width: 999px){
+    .progamas img{
+         
+    }
+  }
+  
   @media (max-width: 900px){
-    .container img{
-      top: 29%;
-      left: 50%;
-      width: 200px;  
-    }
-  }
-  @media (max-width: 400px){
     .container img{
       top: 29%;
       left: 50%;
@@ -33,30 +32,42 @@
     }
   }
   @media (max-width: 400px){
-    .ewerton{
-      width: 100%;
-    }
-  }
-  @media (max-width: 900px){
-    .ewerton{
-      width: 100%;
+    .container img{
+      top: 25%;
+      left: 50%;
+      width: 100px;  
     }
   }
   @media (max-width: 400px){
     .ewerton h1{
-      padding-top: 3vh;
+      font-size: 3.5em;
+    }
+  }
+  @media (max-width: 400px){
+    .ewerton h3{
+      font-size: 2.5em;
+      top: 55%;
     }
   }
   @media (max-width: 400px){
     .projetos {
     flex-wrap: wrap;
+  
     }
   }
   @media (max-width: 400px){
-    .projeto1 {
-    padding: 15px;  
+    .projeto1{
+      height: 150px;
+      width: 150px;
+      padding: 40px;
     }
   }
+  @media (max-width: 400px){
+    .projeto1 img{
+      height: 150px;
+      width: 150px;
+  }
+   }
   @media (max-width: 400px){
     .btn_social ul li{
       margin:4px;

@@ -11,6 +11,7 @@
 }
 body{
     background-color: rgb(99, 99, 99); 
+    
 }
 
 
@@ -46,9 +47,8 @@ body{
     padding-top:4vw;
     font-size: 5em;
     width: 100%;
-    position: relative;
     top: 55%;
-    text-shadow: 2px 1px 3px black;
+    position: relative;
 }
 .ewerton h3{
     font-size: 2rem;

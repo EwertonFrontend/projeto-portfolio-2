@@ -2,6 +2,7 @@
     background-color: #242424;
 }
 
+
 .projetos {
     text-align: center;
     display: flex;
@@ -25,8 +26,7 @@
     box-shadow: 2px 5px 50px black;
     display: flex;
     border-radius: 50px 50px 0px 0px;
-    height: 250px;
-    width: 250px;
+
 }
 
 .projeto1 a{
