@@ -24,6 +24,7 @@ a{
   max-width: 100vw;
   margin-top: 10px;
   margin-bottom: 10px;
+  height: 72vh;
 }
 @media (max-width: 600px){
   .grid{

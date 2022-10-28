@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 75em) {
-    html {
-      font-size: 80%;
-    }
-  }
-   @media (max-width: 55em) {
-    html {
-      font-size: 50%;
-    }
-  } 
- 
+
 
 
 

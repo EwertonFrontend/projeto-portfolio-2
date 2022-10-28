@@ -13,7 +13,7 @@ body, html{
     
     scroll-behavior: smooth;
     background-color: rgb(99, 99, 99); 
-    scroll-padding-top: 90px;
+    scroll-padding-top: 80px;
 }
 
 
@@ -21,7 +21,7 @@ body, html{
     background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(0,0,0,1) 100%);
     text-align: center;
     max-width: 100vw;
-    height: 80vh;
+    height: 82vh;
     color: white;
 }
 @media (max-width: 400px){
@@ -148,5 +148,16 @@ body, html{
   color: rgb(7, 0, 110);
   transition: .1s;
 }
+@media (max-width: 75em) {
+    html {
+      font-size: 80%;
+    }
+  }
+   @media (max-width: 55em) {
+    html {
+      font-size: 50%;
+    }
+  } 
+ 
 
 

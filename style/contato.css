@@ -97,9 +97,9 @@
 	background:#181818bd; 
 	list-style:none; 
 	float:left; 
-	margin:10px; 
+	margin:6px; 
 	overflow:hidden; 
-	border-radius:3px; 
+	border-radius:50%; 
 	font-size:1.5em; 
 	text-align:center;
 }
