@@ -110,7 +110,7 @@
 	line-height:50px; 
 	display:block; 
 	text-decoration:none; 
-	color:#fff; 
+	color:white; 
 	transition:.2s;
 }
 
@@ -127,5 +127,5 @@
 	transition:.4s;
 }
 
-.btn_social ul li:hover::before { transition:0.4s; top:0%; }
-.btn_social ul li a:hover       { color:#ffffff; }
+.btn_social ul li:hover::before { transition:0.2s; top:0%; }
+.btn_social ul li a:hover{ color:#ffffff; }

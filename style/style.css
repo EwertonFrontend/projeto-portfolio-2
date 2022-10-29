@@ -16,7 +16,6 @@ body, html{
     scroll-padding-top: 80px;
 }
 
-
 .ewerton{
     background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(0,0,0,1) 100%);
     text-align: center;
@@ -29,6 +28,39 @@ body, html{
         height: 40vh;
     }
 }
+
+.ewerton h1{
+  font-family: 'Inconsolata', monospace;
+  padding-top:4vw;
+  font-size: 5em;
+  max-width: 100vw;
+  top: 55%;
+  position: relative;
+}
+
+@media (max-width: 400px){
+  .ewerton h1{
+    font-size: 3.5em;
+    top: 74%;
+  }
+}
+
+.ewerton h3{
+  font-size: 2rem;
+  font-family: 'Inconsolata', monospace;
+  text-shadow: 2px 1px 3px black;
+  position: relative;
+  width: 100%;
+  top: 60%;
+}
+
+@media (max-width: 400px){
+  .ewerton h3{
+    font-size: 2.5em;
+    top: 74%;
+  }
+}
+
 .container img{
     position: absolute;
     top: 35%;
@@ -41,47 +73,19 @@ body, html{
     transition: all .8s;
     border: 15px solid transparent;
 }
+
 @media (max-width: 400px){
     .container img{
       top: 18%;
       left: 50%;
       width: 140px;  
-    }
   }
-
-.ewerton h1{
-    font-family: 'Inconsolata', monospace;
-    padding-top:4vw;
-    font-size: 5em;
-    max-width: 100vw;
-    top: 55%;
-    position: relative;
 }
-@media (max-width: 400px){
-    .ewerton h1{
-      font-size: 3.5em;
-      top: 74%;
-    }
-  }
-.ewerton h3{
-    font-size: 2rem;
-    font-family: 'Inconsolata', monospace;
-    text-shadow: 2px 1px 3px black;
-    position: relative;
-    width: 100%;
-    top: 60%;
-    
-}
-@media (max-width: 400px){
-    .ewerton h3{
-      font-size: 2.5em;
-      top: 74%;
-    }
-  }
 
 .animation{
     animation: Cursor 800ms infinite normal, typing 4s steps(50) 1s normal both;
 }
+
 .line{
     color: rgba(255, 255, 255, 0.932);
     font-family: monospace;
@@ -90,6 +94,7 @@ body, html{
     white-space: nowrap;
     overflow: hidden;
 }
+
 @keyframes typing{
     from{
         width: 0;
@@ -98,6 +103,7 @@ body, html{
         width: 12em;
     }
 }
+
 @keyframes Cursor{
     form{
         border-right-color:rgba(255, 255, 255, .75);
@@ -107,24 +113,22 @@ body, html{
     }
 }
 
-
 .progamas{
     background: rgba(48,48,48,1);
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     max-width: 100vw;
     margin: 0;
-    
 }
+
 @media (max-width: 400px){
     .progamas{
-        
-        max-width: 100vw;
-
-    }
+      max-width: 100vw;
   }
+}
+
 .progamas img{
-    max-width: 100%;
+  max-width: 100%;
   display: block;
   object-fit: cover;
   object-position: center;
@@ -140,24 +144,27 @@ body, html{
     text-align: center;
     max-width: 100vw;
 }
+
 .criado a{
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
+
 .criado a:hover{
   color: rgb(7, 0, 110);
   transition: .1s;
 }
+
 @media (max-width: 75em) {
-    html {
-      font-size: 80%;
-    }
+  html{
+    font-size: 80%;
   }
+}
    @media (max-width: 55em) {
-    html {
-      font-size: 50%;
-    }
-  } 
+  html {
+    font-size: 50%;
+  }
+} 
  
 
 
