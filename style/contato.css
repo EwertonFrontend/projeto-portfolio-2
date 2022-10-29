@@ -39,12 +39,12 @@
 .form label{
     color: white;
     line-height: 1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
 .form input,
 .form textarea{
     font: inherit;
-    padding: 0.8rem;
+    padding: 0.1rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -64,7 +64,7 @@
 }
 .form button{
     display: block;
-    width: 105.2%;
+    width: 101%;
     padding: 1rem;
     background: #251b41f1;
     font: inherit;
@@ -97,9 +97,9 @@
 	background:#181818bd; 
 	list-style:none; 
 	float:left; 
-	margin:5px; 
+	margin:6px; 
 	overflow:hidden; 
-	border-radius:50%; 
+	border-radius:30%; 
 	font-size:1em; 
 	text-align:center;
 }
@@ -122,11 +122,10 @@
 	height:100%; 
 	top:90%; 
 	left:0; 
-	background:#7558c4f1; 
+	background:#7449e085; 
 	transform: scale(1); 
-	transition:.4s;
+	transition:.2s;
 }
 
 .btn_social ul li:hover::before { transition:0.2s; top:0%; }
-.btn_social ul li a:hover{
-     color:#ffffff; }
+.btn_social ul li a:hover{ color:#ffffff; }
