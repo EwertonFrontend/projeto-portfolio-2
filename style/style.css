@@ -28,7 +28,7 @@ body, html{
 }
 @media (max-width: 400px){
     .ewerton{
-        height: 40vh;
+        height: 60vh;
     }
 }
 
@@ -81,9 +81,9 @@ body, html{
 
 @media (max-width: 400px){
     .container img{
-      top: 18%;
+      top: 25%;
       left: 50%;
-      width: 140px;  
+      width: 200px;  
   }
 }
 
@@ -169,7 +169,7 @@ body, html{
 }
    @media (max-width: 55em) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
 } 
  
