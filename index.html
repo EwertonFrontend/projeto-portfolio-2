@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<body>
-    <header>
+<head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +11,11 @@
         <link rel="stylesheet" href="style/projetos.css">
         <link rel="stylesheet" href="style/navegacao.css">
         <link rel="stylesheet" href="style/contato.css">
-    </header>
-
-    <header id="header">
-    <a id="logo" href="">Logo</a>
+</head>
+<body>
+    
+    <nav id="header">
+    <img id="logo" src="imagens/logo.png" alt="logo">
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
         <span id="hamburger"></span>
@@ -28,7 +27,7 @@
         <li><a href="/">Sobre</a></li>
       </ul>
     </nav>
-    </header>
+    </nav>
 
     <header class="ewerton" id="ewe">
         <div class="container">
@@ -52,12 +51,16 @@
     <section class="grid">
 
             <div>
-                <img src="imagens/em_breve.png" alt="projeto1" >
-                <p><a href="#" target="_blank">Em Breve1</a></p>
+                <a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">
+                    <img src="imagens/amdriod.png" alt="projeto1" >
+                    <p><a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">Projeto Android</a></p>
+                </a>
             </div>
             <div>
-                <img src="imagens/em_breve.png" alt="projeto2" >
-                <p><a href="#" target="_blank">Em Breve2 </a></p>
+                <a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">
+                    <img src="imagens/cordel.png" alt="projeto2" >
+                    <p><a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a></p>
+                </a>
             </div>
             <div>
                 <img src="imagens/em_breve.png" alt="projeto2" >
@@ -67,6 +70,7 @@
                 <img src="imagens/em_breve.png" alt="projeto2" >
                 <p><a href="#" target="_blank">Em Breve4</a></p>
             </div>
+            
          
     </section>
 
@@ -100,5 +104,6 @@
     </footer> 
 
     <script src="javascript.js"></script>
+
 </body>
 </html>

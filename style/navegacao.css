@@ -15,9 +15,9 @@ a:hover {
   background: rgba(179, 179, 179, 0.05);
 }
 
-#logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+#logo{
+  width: 70px;
+
 }
 
 #header {
