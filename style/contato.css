@@ -76,8 +76,22 @@
     color: white;
     cursor: pointer;
 }
+@media (max-width: 600px){
+    .btn_social li{
+        width:40px; 
+	    height:40px;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 600px){
+    .btn_social ul{
+        
+    }
+ }
 
-.btn_social { 
+ .btn_social { 
 
 	width:100%; 
 	float:left; 
@@ -94,45 +108,34 @@
 }
 
 .btn_social ul li  { 
+
 	position:relative; 
-	background:#181818bd; 
+	background:#555555; 
 	list-style:none; 
 	float:left; 
-	margin:6px; 
+	margin:5px; 
+	z-index:0; 
 	overflow:hidden; 
-	border-radius:30%; 
-	font-size:1em; 
-	text-align:center;
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+    border-radius: 50%;
 }
 
-.btn_social ul li a { 
+.btn_social ul li a  { 
+
 	width:50px; 
 	height:50px; 
-	line-height:50px; 
-	display: flex;
-    justify-content: center;
-    align-items: center;
+	line-height:53px; 
+	display:block; 
 	text-decoration:none; 
-	color:white; 
-	transition:.2s;
-}
+	color:#fff; 
+	transition:.4s;
 
-@media (max-width: 600px){
-    .btn_social li{
-        width:40px; 
-	    height:40px;   
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (max-width: 600px){
-    .btn_social ul{
-        
-    }
 }
 
 .btn_social ul li::before { 
+
 	transition:0.4s; 
 	position:absolute; 
 	content:''; 
@@ -140,11 +143,11 @@
 	height:100%; 
 	top:90%; 
 	left:0; 
-	background:#7449e085; 
+	background:#252525; 
+	z-index:-1; 
 	transform: scale(1); 
-	transition:1.2s;
+	transition:.4s; 
 }
 
-.btn_social ul li:hover::before { transition:0.2s; top:0%;
-cursor: pointer; }
-.btn_social ul li a:hover{ color:#ffffff; }
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#ffffff; }
