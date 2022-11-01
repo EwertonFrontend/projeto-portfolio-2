@@ -74,6 +74,7 @@
     cursor: pointer;
     padding-left: 1rem;
     color: white;
+    cursor: pointer;
 }
 
 .btn_social { 
@@ -141,8 +142,9 @@
 	left:0; 
 	background:#7449e085; 
 	transform: scale(1); 
-	transition:.2s;
+	transition:1.2s;
 }
 
-.btn_social ul li:hover::before { transition:0.2s; top:0%; }
+.btn_social ul li:hover::before { transition:0.2s; top:0%;
+cursor: pointer; }
 .btn_social ul li a:hover{ color:#ffffff; }
