@@ -135,12 +135,16 @@ body, html{
 }
 
 .progamas img{
+  background-image: url('../imagens/CSS2.png');
   max-width: 100%;
   display: block;
   object-fit: cover;
   object-position: center;
   width: 100px;
   height: 100px;
+}
+.progamas img :hover{
+    background-image: url('../imagens/CSS.png');
 }
 
 .criado{
