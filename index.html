@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto Portfolio 2</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="media.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -46,31 +47,76 @@
         <h1>Projetos</h1>
     </div>
     
-    <section class="grid">
-
-            <div class="projetos">
-                <a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">
-                    <img src="imagens/amdriod.png" alt="projeto1" >
-                    <p><a href="https://ewertoncursos.github.io/projeto-android/" target="_blank">Projeto Android</a></p>
-                </a>
+    <article class=" ">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-evenly m-5 p-5">
+                    <div class="card p-0 m-0" style="width: 20rem;">
+                        <img src="imagens/cordel.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Projeto Cordel</h5>
+                          <p class="card-text">Projeto criado no Curso HTML e CSS</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                      </div>
+                      <div class="card p-0 m-0"  style="width: 20rem;">
+                        <img src="imagens/amdriod.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Projeto Android</h5>
+                          <p class="card-text">Projeto criado no Curso HTML e CSS</p>
+                          <a href="#" class="btn btn-primary ">Visitar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 20rem;">
+                        <img src="imagens/em_breve.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-evenly m-5 p-5">
+                    <div class="card" style="width: 20rem;">
+                        <img src="imagens/em_breve.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 20rem;">
+                        <img src="imagens/em_breve.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 20rem;">
+                        <img src="imagens/em_breve.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
             </div>
-            <div class="projetos">
-                <a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">
-                    <img src="imagens/cordel.png" alt="projeto2" >
-                    <p><a href="https://ewertoncursos.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a></p>
-                </a>
-            </div>
-            <div class="projetos">
-                <img src="imagens/em_breve.png" alt="projeto2" >
-                <p><a href="#" target="_blank">Em Breve3</a></p>
-            </div>
-            <div class="projetos">
-                <img src="imagens/em_breve.png" alt="projeto2" >
-                <p><a href="#" target="_blank">Em Breve4</a></p>
-            </div>
-            
-         
-    </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </article>
 
     <div class="formulario" id="con">
         <div class="btn_social">             
@@ -102,6 +148,7 @@
     </footer> 
 
     <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
