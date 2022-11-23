@@ -14,7 +14,7 @@ body, html{
     
     scroll-behavior: smooth;
     background-color: rgb(99, 99, 99); 
-    scroll-padding-top: 55px;
+    scroll-padding-top: 54px;
 }
 
 .ewerton{
@@ -23,7 +23,7 @@ body, html{
   background: linear-gradient(0deg, #8f8f8f 0%, #343434 100%);
   text-align: center;
   max-width: 100vw;
-  height: 43vw;
+  height: 38vw;
   color: white;
 }
 @media (max-width: 400px){
@@ -117,8 +117,6 @@ body, html{
         border-right-color:transparent
     }
 }
-
-
 
 .criado{
     background-color: #22222c;
