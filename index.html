@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="style/contato.css">
 </head>
 <body>
+
     <nav id="header">
     <img id="logo" src="imagens/logo.png" alt="logo">
     <div id="nav">
@@ -36,13 +37,22 @@
         <h3>Desenvolvedor Front-end</h3>
     </header>
 
-    <section class="progamas">
-        <img src="imagens/HTML2.png" alt="foto-html" onmouseover="this.src='imagens/HTML.png'" onmouseout="this.src='imagens/HTML2.png'">
-        <img src="imagens/CSS2.png" alt="foto-css" onmouseover="this.src='imagens/CSS.png'" onmouseout="this.src='imagens/CSS2.png'">
-        <img src="imagens/javascrit2.png" alt="foto-javascript" onmouseover="this.src='imagens/javascrit.png'" onmouseout="this.src='imagens/javascrit2.png'">
-        <img src="imagens/github-300px.png" alt="foto-github">
-    </section>
-    
+    <div id="carouselExampleDark " class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active d-flex justify-content-evenly" data-bs-interval="10000" style="height: 10em;">
+          <img class="w-5 " src="imagens/HTML2.png" style="height: 10em;" alt="foto-html" onmouseover="this.src='imagens/HTML.png'" onmouseout="this.src='imagens/HTML2.png'">
+          <img class="w-5" src="imagens/CSS2.png" alt="foto-css" onmouseover="this.src='imagens/CSS.png'" onmouseout="this.src='imagens/CSS2.png'">
+          <img class="w-5" src="imagens/javascript2.png" alt="foto-javascript" onmouseover="this.src='imagens/javascript.png'" onmouseout="this.src='imagens/javascript2.png'">
+          <img class="w-5" src="imagens/Bootstrap_logo.png" alt="foto-Bootstrap" onmouseover="this.src='imagens/Bootstrap_logo_cor.png'" onmouseout="this.src='imagens/Bootstrap_logo.png'">
+          <img class="w-5" src="imagens/github-300px.png" alt="foto-github">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+    </div>
     <div class="titulo" id="pro">
         <h1>Portfólio</h1>
     </div>
