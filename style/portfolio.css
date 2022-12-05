@@ -11,8 +11,8 @@
   color: white;
   box-shadow: 9px 10px 56px 12px rgba(0,0,0,0.35);
 }
-.portfolio{
-  display: grid;
+.carousel-inner{
+  z-index: -1;
 }
 
 
