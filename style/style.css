@@ -43,13 +43,7 @@ body, html{
   
 }
 
-@media (max-width: 400px){
-  .ewerton h1{
-    font-size: 3.5em;
-    top: 74%;
-    
-  }
-}
+
 
 .ewerton h3{
   font-size: 2rem;
@@ -60,19 +54,14 @@ body, html{
   top: 60%;
 }
 
-@media (max-width: 400px){
-  .ewerton h3{
-    font-size: 2.5em;
-    top: 74%;
-  }
-}
+
 
 .container img{
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 300px;
     text-align: center;
     border-radius: 50%;
     box-shadow: 3px 2px 15px rgba(51, 51, 51, 0.555); 
@@ -80,13 +69,7 @@ body, html{
     border: 15px solid transparent;
 }
 
-@media (max-width: 400px){
-    .container img{
-      top: 35%;
-      left: 50%;
-      width: 200px;  
-  }
-}
+
 
 .animation{
     animation: Cursor 600ms infinite normal, typing 3s steps(50) 1s normal both;

@@ -1,14 +1,34 @@
 
-@media (min-width: 1800px){
+@media (min-width: 500px){
     .ewerton{
-        height: 36vw;
+        height: 100vh;
     }
 }
-@media (min-width: 800px){
-    .ewerton{
-        height: 100vw;
-    }
-}
-@media (max-width: 400px){
 
+@media (max-width: 500px){
+    .ewerton{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 400px){
+    .ewerton h1{
+      font-size: 3em;
+      top: 70%;
+    }
+}
+
+@media (max-width: 400px){
+    .ewerton h3{
+      font-size: 2em;
+      top: 74%;
+    }
+}
+
+@media (max-width: 400px){
+    .container img{
+      top: 35%;
+      left: 50%;
+      width: 250px;  
+  }
 }
