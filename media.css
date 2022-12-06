@@ -1,0 +1,14 @@
+
+@media (min-width: 1800px){
+    .ewerton{
+        height: 36vw;
+    }
+}
+@media (min-width: 800px){
+    .ewerton{
+        height: 100vw;
+    }
+}
+@media (max-width: 400px){
+
+}

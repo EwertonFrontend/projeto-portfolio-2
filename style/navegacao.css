@@ -83,11 +83,13 @@ a:hover {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    z-index: 1;
   }
   #hamburger {
     border-top: 2px solid;
     width: 20px;
     color: white;
+    z-index: 1;
   }
   #hamburger::after,
   #hamburger::before {

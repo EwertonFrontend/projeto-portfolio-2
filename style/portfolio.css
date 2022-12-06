@@ -11,8 +11,9 @@
   color: white;
   box-shadow: 9px 10px 56px 12px rgba(0,0,0,0.35);
 }
-.carousel-inner{
+.visually-hidden{
   z-index: -1;
+  
 }
 
 
