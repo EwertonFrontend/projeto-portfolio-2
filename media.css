@@ -35,6 +35,11 @@
 
 @media (max-width: 400px){
     .ewerton{
-        height: 139vw;
+        height: 100vh;
+    }
+}
+@media (max-width: 400px){
+    .skills{
+        height: 100vh;
     }
 }
