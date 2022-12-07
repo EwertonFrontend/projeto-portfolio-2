@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  background: rgba(179, 179, 179, 0.05);
+  background: rgba(33, 42, 94, 0.05);
 }
 
 #logo{
@@ -27,7 +27,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #333333;
+  background: #343434;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -58,7 +58,7 @@ a:hover {
     right: 0px;
     background: #313131;
     transition: 0.6s;
-    z-index: 1;
+    z-index: 1000;
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
@@ -67,13 +67,14 @@ a:hover {
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
-    z-index: 1;
+    z-index: 1000;
   }
   #menu a {
     padding: 1.5rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(207, 207, 207, 0.05);
     font-size: 3rem;
+    z-index: 1000;
   }
   #btn-mobile {
     display: flex;
@@ -83,13 +84,13 @@ a:hover {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
-    z-index: 1;
+    z-index: 1000;
   }
   #hamburger {
     border-top: 2px solid;
     width: 20px;
     color: white;
-    z-index: 1;
+    z-index: 1000;
   }
   #hamburger::after,
   #hamburger::before {
@@ -101,12 +102,14 @@ a:hover {
     margin-top: 5px;
     transition: 0.3s;
     position: relative;
+    z-index: 1000;
   }
   #nav.active #hamburger {
     border-top-color: transparent;
   }
   #nav.active #hamburger::before {
     transform: rotate(135deg);
+    z-index:1000;
   }
   #nav.active #hamburger::after {
     transform: rotate(-135deg);

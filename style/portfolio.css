@@ -11,9 +11,11 @@
   color: white;
   box-shadow: 9px 10px 56px 12px rgba(0,0,0,0.35);
 }
-.visually-hidden{
-  z-index: -1;
-  
+.carousel-control-prev{
+  z-index: 0;
+}
+.carousel-control-next{
+  z-index: 0;
 }
 
 
