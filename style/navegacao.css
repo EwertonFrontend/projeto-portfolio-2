@@ -1,4 +1,6 @@
 body,
+
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -17,6 +19,7 @@ a:hover {
 
 #logo{
   width: 70px;
+  opacity: 100%;
 
 }
 
@@ -27,10 +30,11 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #343434;
+  background: #343434a7;
   position: fixed;
   width: 100%;
   z-index: 1;
+  
 }
 
 #menu {
@@ -43,6 +47,8 @@ a:hover {
 #menu a {
   display: block;
   padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
 }
 
 #btn-mobile {

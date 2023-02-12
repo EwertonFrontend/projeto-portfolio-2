@@ -34,27 +34,27 @@ body, html{
 
 
 
-.ewerton h1{
-  font-family: 'Chakra Petch', sans-serif;
-  padding-top:4vw;
+.typed h1{
+  font-family: 'Roboto', sans-serif;
+  padding-top:30vw;
   font-size: 5em;
   max-width: 100vw;
   top: 55%;
   position: relative;
-  text-shadow: 2px 1px 3px black;
+  text-shadow: 2px 1px 3px rgb(12, 12, 12);
   
 }
-
-
-
-.ewerton h3{
-  font-size: 2rem;
-  font-family: 'Chakra Petch', sans-serif;
-  text-shadow: 2px 1px 3px black;
+.animation{
+  font-family: 'Roboto', sans-serif;
+  padding-top:30vw;
+  font-size: 1em;
+  max-width: 100vw;
+  top: 55%;
   position: relative;
-  width: 100%;
-  top: 60%;
+  text-shadow: 2px 1px 3px black;
+  color: rgb(39, 39, 39);
 }
+
 
 
 
@@ -73,17 +73,6 @@ body, html{
 
 
 
-.animation{
-    animation: Cursor 600ms infinite normal, typing 3s steps(50) 1s normal both;
-}
-
-.line{
-    color: rgba(255, 255, 255, 0.932);
-    border-right: 3px solid rgba(0, 0, 0, 0.959);
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-}
 
 @keyframes typing{
     from{
